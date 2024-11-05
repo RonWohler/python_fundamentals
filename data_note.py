@@ -21,6 +21,8 @@
 
 # print("hello world".upper())
 
+# print("All Around The World"[7].lower()) This will produce the 8th character of the string
+
 # print(len("hello world")) - Will give the length of the string which is 11.
 
 # print("hello world"[1]) - Will print the character indexed as 1 which is e. (python uses a Zero Index beginning labeling from zero 0-10)
