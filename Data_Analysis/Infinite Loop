@@ -1,0 +1,12 @@
+# counter = 0
+
+# while true:
+# 	counter += 1
+# 	print(f"i have said hello {counter} times")
+
+# ended up in an infintie loop? press ctrl + c
+ 
+# OR
+ 
+# Kill (Delete) terminal
+ 
