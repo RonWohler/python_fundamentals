@@ -1,4 +1,3 @@
-
 import random
 from colorama import Fore, Style, Back #* we have imported 'colorama' and 'random' library and used their functions
 
@@ -50,38 +49,5 @@ def game_function():    #* we are defining a function that will ask a question, 
        \   ^   /
         '-...-'
       For Playing""")   # used ascii to show 8 ball.
-# it gives this error message "unterminated string literal" as it cant ignore escape characters such as \.
-# to avoid this, we used the "raw strings" prefix "r", "r" will help maintain proper formatting, while using triple quotes (""") handles multi-line strings.
 
- 
 game_function() # calling function() to start the program
-
-
-#--------------------------------------------------------------------------------------------------------
-# # shall i put the reflection question here. we can add our answers and then transfer it to a word doc?
-
-# 1] what we did?
-# -we planned the program requirements and structured a flowchart as per logic.
-# -we created variables, lists (good and bad response)
-# -used random library to generate a random integer number (randint)
-# -we created a elif conditions to ask the question again
-# -we used the colorama library to colour the good/bad response in green/red respectively
-# -tried the ascii art for goodbye message to draw (magic 8 ball)
- 
-# 2] what we expected to happen?
-# -to generate a random number and check whether the number is odd/even using modulus
-# -random choice of item from appropraite list depending on the odd/ even number
-# -we expected the item from good list be in green and bad list be in red
-# -for ascii art to work and show magic 8 ball correctly
-
-# 3] what happened?
-# -we were getting a range of numbers and wanted to keep the proability fair, hence we chose to pick numbers between 1 and 2
-# -we got correct output and crosschecked the number generated matched the elif conditions
-# -we got correct colour texts as per the condition
-# -ascii art got an error message "unterminated string literal" as it cant ignore escape characters such as \. 
-
-# 4] action required/ taken
-# -‘randint(1,2)’ between 1 and 2 (odd/even- with 50% probability)
-# -‘function()’ was created in order to repeat the whole process as a block. 
-# -we created a while loop to tackle invalid inputs
-# -ascii art- we used the "raw strings" prefix "r", "r" will help maintain proper formatting, while using triple quotes (""") handles multi-line strings.
